@@ -16,9 +16,6 @@ A full-stack AI application that automates expense tracking and provides financi
 * **Database:** Google Sheets API
 * **Visualization:** Plotly & Pandas
 
-## 📸 Screenshots
-*(You can upload a screenshot of your dashboard here later)*
-
 ## 🚀 How to Run Locally
 1. Clone the repo
 2. Install dependencies: `pip install -r requirements.txt`
