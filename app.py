@@ -13,7 +13,7 @@ import io
 st.set_page_config(page_title="AI CFO Agent", page_icon="📈", layout="wide")
 
 # --- API KEYS ---
-GEMINI_KEY = "AIzaSyBriYn4tDHgjZIVarhlHm-oZReGnzZkF10"  # <--- PASTE KEY HERE
+GEMINI_KEY = "your_api_key_here""  # <--- PASTE KEY HERE
 
 # --- SETUP ---
 @st.cache_resource
@@ -146,4 +146,5 @@ with tab3:
                     advice = get_ai_advice(df)
                     st.info(advice)
     except:
+
         st.write("No data yet.")
