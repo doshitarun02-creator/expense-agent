@@ -4,6 +4,17 @@ A full-stack AI application that automates expense tracking and provides financi
 
 ### 🔗 [Live Demo](https://share.streamlit.io/YOUR_USERNAME/expense-agent) (Click to Launch)
 
+## 📅 Development Roadmap & Milestones
+
+This project was developed in three structured phases for the Agentic AI Workshop:
+
+* **Week 1: Foundation & Data Pipeline:** * Engineered the Streamlit UI skeleton.
+    * Established real-time cloud database synchronization using the Google Sheets API.
+* **Week 2: AI Vision & Data Extraction:** * Integrated Google Gemini 2.5 Flash for unstructured receipt scanning.
+    * Built the Pandas logic for bulk CSV bank statement cleaning and auto-categorization.
+* **Week 3: CFO Agent & Analytics (Current MVP):** * Deployed the AI CFO logic engine to analyze spending velocity and generate cost-cutting strategies.
+    * Integrated Plotly for interactive financial data visualization.
+
 ## 💡 Features
 * **🧾 Receipt Scanner:** Uses **Gemini Vision** to extract data (Date, Store, Amount) from images.
 * **🧠 CFO Logic:** Analyzes spending patterns and provides ruthless cost-cutting advice.
